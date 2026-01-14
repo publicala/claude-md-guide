@@ -1,6 +1,8 @@
-# Claude Code Onboarding
+# CLAUDE.md Guide
 
 Presentation slides about CLAUDE.md files for AI coding assistants.
+
+**Live:** https://claude-md-guide.publica.la/
 
 ## Usage
 
