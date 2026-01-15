@@ -394,6 +394,16 @@ project/
 
 ---
 
+## Rules
+
+For larger projects: `.claude/rules/*.md`
+
+- Works like Cursor's rules system
+- Path-specific with YAML frontmatter (`paths: ["src/**/*.ts"]`)
+- Same priority as CLAUDE.md - they coexist
+
+---
+
 ## Writing Tips
 
 - **Be concise** - read and be skeptical of every line
@@ -462,5 +472,11 @@ Located in `database/factories/`.
     <h3>Personal</h3>
     <code>**/CLAUDE.local.md</code>
     <div class="tag">Scope: Local • Git: No</div>
+  </div>
+
+  <div class="card">
+    <h3>Rules</h3>
+    <code>.claude/rules/*.md</code>
+    <div class="tag">Scope: Project • Git: Yes</div>
   </div>
 </div>
