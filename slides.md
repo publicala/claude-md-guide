@@ -480,3 +480,15 @@ Located in `database/factories/`.
     <div class="tag">Scope: Project • Git: Yes</div>
   </div>
 </div>
+
+---
+
+## Tools: Status Lines
+
+- [claude-hud](https://github.com/jarrodwatts/claude-hud)
+- [claude-powerline](https://github.com/Owloops/claude-powerline)
+- [claude-code-statusline](https://github.com/rz1989s/claude-code-statusline)
+- [claude-code-statusline-pro](https://github.com/Wangnov/claude-code-statusline-pro)
+- [Barista](https://github.com/pstuart/Barista)
+- [claude-statusline](https://github.com/moon1ite/claude-statusline)
+- [ccusage-statusline-rs](https://github.com/ticpu/ccusage-statusline-rs)
