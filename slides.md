@@ -189,6 +189,15 @@ style: |
     margin-top: 20px;
   }
 
+  .grid-layout.grid-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .grid-layout.grid-3 .card {
+    padding: 18px;
+  }
+
   .card {
     background: var(--bg-surface);
     border: 1px solid var(--border);
@@ -449,35 +458,35 @@ Located in `database/factories/`.
 
 ## Quick Reference
 
-<div class="grid-layout">
+<div class="grid-layout grid-3">
   <div class="card">
     <h3>Global</h3>
     <code>~/.claude/CLAUDE.md</code>
-    <div class="tag">Scope: Personal</div>
+    <div class="tag">Personal</div>
   </div>
 
   <div class="card">
     <h3>Project</h3>
     <code>./CLAUDE.md</code>
-    <div class="tag">Scope: Project • Git: Yes</div>
+    <div class="tag">Git: Yes</div>
   </div>
 
   <div class="card">
     <h3>Subdirectory</h3>
     <code>./dir/CLAUDE.md</code>
-    <div class="tag">Scope: Nested • Git: Yes</div>
+    <div class="tag">Git: Yes</div>
   </div>
 
   <div class="card">
     <h3>Personal</h3>
     <code>**/CLAUDE.local.md</code>
-    <div class="tag">Scope: Local • Git: No</div>
+    <div class="tag">Git: No</div>
   </div>
 
   <div class="card">
     <h3>Rules</h3>
     <code>.claude/rules/*.md</code>
-    <div class="tag">Scope: Project • Git: Yes</div>
+    <div class="tag">Git: Yes</div>
   </div>
 </div>
 
